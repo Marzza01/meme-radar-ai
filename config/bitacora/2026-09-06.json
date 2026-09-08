@@ -1,0 +1,5060 @@
+[
+  {
+    "id": "con_20260906_202806_BONK_4a06",
+    "timestamp": "2026-09-06T20:28:06.509924",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "BONK",
+    "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "chain": "solana",
+    "score": 82,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Smart Money x3",
+      "Volume spike 4.5x",
+      "RugCheck: Good"
+    ],
+    "traders_involved": [
+      "@Cupseyy",
+      "@notdecu"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$1.8M",
+      "liquidity": "$150K"
+    },
+    "audit": {},
+    "price_at_alert": "0.000015",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": "true_positive",
+    "feedback": "manual",
+    "feedback_timestamp": "2026-09-06T20:28:06.549020",
+    "notes": "Subio 3.2x",
+    "auto_evaluated": false
+  },
+  {
+    "id": "dis_20260906_202806_PEPE2_e54c",
+    "timestamp": "2026-09-06T20:28:06.510854",
+    "date": "2026-09-06",
+    "signal_type": "discovery",
+    "type": "discovery",
+    "token": "PEPE2",
+    "mint": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+    "chain": "solana",
+    "score": 68,
+    "layers": [
+      "X",
+      "DexScreener"
+    ],
+    "signals": [
+      "Discovery por @theunipcs",
+      "1 mención"
+    ],
+    "traders_involved": [
+      "@theunipcs"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$350K",
+      "liquidity": "$45K"
+    },
+    "audit": {},
+    "price_at_alert": "0.000003",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_202806_DOGE99_8f6f",
+    "timestamp": "2026-09-06T20:28:06.525050",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "DOGE99",
+    "mint": "6p6xgHyF7AeQHyMunfUWmFVCkg545V45p1mBSpump",
+    "chain": "solana",
+    "score": 75,
+    "layers": [
+      "Pump.fun",
+      "DexScreener"
+    ],
+    "signals": [
+      "Copytrade BUY en Pump.fun",
+      "1.500 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$90K",
+      "liquidity": "$12K"
+    },
+    "audit": {},
+    "price_at_alert": "0.0000008",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_202831_BONK_c44f",
+    "timestamp": "2026-09-06T20:28:31.272099",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "BONK",
+    "mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "chain": "solana",
+    "score": 82,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Smart Money x3",
+      "Volume spike 4.5x",
+      "RugCheck: Good"
+    ],
+    "traders_involved": [
+      "@Cupseyy",
+      "@notdecu"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$1.8M",
+      "liquidity": "$150K"
+    },
+    "audit": {},
+    "price_at_alert": "0.000015",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": "true_positive",
+    "feedback": "manual",
+    "feedback_timestamp": "2026-09-06T20:28:31.325340",
+    "notes": "Subio 3.2x",
+    "auto_evaluated": false
+  },
+  {
+    "id": "dis_20260906_202831_PEPE2_46b6",
+    "timestamp": "2026-09-06T20:28:31.273180",
+    "date": "2026-09-06",
+    "signal_type": "discovery",
+    "type": "discovery",
+    "token": "PEPE2",
+    "mint": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+    "chain": "solana",
+    "score": 68,
+    "layers": [
+      "X",
+      "DexScreener"
+    ],
+    "signals": [
+      "Discovery por @theunipcs",
+      "1 mención"
+    ],
+    "traders_involved": [
+      "@theunipcs"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$350K",
+      "liquidity": "$45K"
+    },
+    "audit": {},
+    "price_at_alert": "0.000003",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": "true_positive",
+    "feedback": "manual",
+    "feedback_timestamp": "2026-09-06T20:28:31.345421",
+    "notes": "Subio 50%",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_202831_DOGE99_4be9",
+    "timestamp": "2026-09-06T20:28:31.290849",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "DOGE99",
+    "mint": "6p6xgHyF7AeQHyMunfUWmFVCkg545V45p1mBSpump",
+    "chain": "solana",
+    "score": 75,
+    "layers": [
+      "Pump.fun",
+      "DexScreener"
+    ],
+    "signals": [
+      "Copytrade BUY en Pump.fun",
+      "1.500 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$90K",
+      "liquidity": "$12K"
+    },
+    "audit": {},
+    "price_at_alert": "0.0000008",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": "false_positive",
+    "feedback": "manual",
+    "feedback_timestamp": "2026-09-06T20:28:31.362291",
+    "notes": "Dumping rapido",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_205328_ZCAT_123a",
+    "timestamp": "2026-09-06T20:53:28.056743",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "ZCAT",
+    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+    "chain": "solana",
+    "score": 95,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Seguridad: Freeze Revocado / Anti-Honeypot (+10pts)",
+      "Seguridad: Mint Revocado (+5pts)",
+      "Distribucion saludable: Top 10 posee 15.59% (+5pts)",
+      "Liquidez protegida: 81.0% LP bloqueada (+5pts)",
+      "Twitter buzz: 5 tweets recientes (+15pts)",
+      "Market Cap fuerte: $146,631,414 (+15pts)",
+      "Liquidez alta: $2,076,331 (+15pts)",
+      "Volumen 5m alto: $55,170 (+10pts)",
+      "CONVERGENCIA FULL: 4 senales simultaneas (+15pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$146,631,414",
+      "liquidity": "$2,076,331",
+      "volume_5m": "$55,170"
+    },
+    "audit": {
+      "contract": "HcRLc9...DeJR",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "15.59% (Saludable)",
+      "risk": "BAJO RIESGO / BUENO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "BAJO RIESGO / BUENO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 15.59,
+        "insiders_count": 0,
+        "lp_locked_pct": 81.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+      }
+    },
+    "price_at_alert": "$0.146600",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_210700_5DNGUX_bebb",
+    "timestamp": "2026-09-06T21:07:00.330163",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "5DNGUX",
+    "mint": "5dNGUxJWr81JxqM59tv87Mg9fRbtfEWxzhgpk4aopump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "5dNGUx...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "78.74% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "5dNGUxJWr81JxqM59tv87Mg9fRbtfEWxzhgpk4aopump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 78.74,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/5dNGUxJWr81JxqM59tv87Mg9fRbtfEWxzhgpk4aopump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_210731_PONS_90d2",
+    "timestamp": "2026-09-06T21:07:31.494651",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "PONS",
+    "mint": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+    "chain": "robinhood",
+    "score": 68,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener"
+    ],
+    "signals": [
+      "Twitter buzz: 6 tweets recientes (+18pts)",
+      "Market Cap fuerte: $533,524,209 (+15pts)",
+      "Liquidez alta: $7,650,437 (+15pts)",
+      "Volumen 5m alto: $44,471 (+10pts)",
+      "CONVERGENCIA TRIPLE: 3 senales simultaneas (+10pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$533,524,209",
+      "liquidity": "$7,650,437",
+      "volume_5m": "$44,471"
+    },
+    "audit": {
+      "contract": "0x39dBED3a...3C4571"
+    },
+    "price_at_alert": "$0.760200",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_210813_ZCAT_eeb3",
+    "timestamp": "2026-09-06T21:08:13.165587",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "ZCAT",
+    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+    "chain": "solana",
+    "score": 100,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Seguridad: Freeze Revocado / Anti-Honeypot (+10pts)",
+      "Seguridad: Mint Revocado (+5pts)",
+      "Distribucion saludable: Top 10 posee 15.59% (+5pts)",
+      "Liquidez protegida: 82.0% LP bloqueada (+5pts)",
+      "Twitter buzz: 13 tweets recientes (+30pts)",
+      "Market Cap fuerte: $138,406,102 (+15pts)",
+      "Liquidez alta: $1,955,364 (+15pts)",
+      "Volumen 5m alto: $29,856 (+10pts)",
+      "CONVERGENCIA FULL: 4 senales simultaneas (+15pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$138,406,102",
+      "liquidity": "$1,955,364",
+      "volume_5m": "$29,856"
+    },
+    "audit": {
+      "contract": "HcRLc9...DeJR",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "15.59% (Saludable)",
+      "risk": "BAJO RIESGO / BUENO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "BAJO RIESGO / BUENO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 15.59,
+        "insiders_count": 0,
+        "lp_locked_pct": 82.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+      }
+    },
+    "price_at_alert": "$0.138400",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_210936_FADQZB_6b4f",
+    "timestamp": "2026-09-06T21:09:36.634381",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FADQZB",
+    "mint": "FADqzbyHRpovob31qmRHydK8cCPWaW27X8Ax3ugi7spp",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "FADqzb...7spp",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "87.37% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "FADqzbyHRpovob31qmRHydK8cCPWaW27X8Ax3ugi7spp",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 87.37,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/FADqzbyHRpovob31qmRHydK8cCPWaW27X8Ax3ugi7spp"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_213648_PONS_1023",
+    "timestamp": "2026-09-06T21:36:48.359369",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "PONS",
+    "mint": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+    "chain": "robinhood",
+    "score": 80,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener"
+    ],
+    "signals": [
+      "Twitter buzz: 14 tweets recientes (+30pts)",
+      "Market Cap fuerte: $541,139,632 (+15pts)",
+      "Liquidez alta: $7,710,178 (+15pts)",
+      "Volumen 5m alto: $40,253 (+10pts)",
+      "CONVERGENCIA TRIPLE: 3 senales simultaneas (+10pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$541,139,632",
+      "liquidity": "$7,710,178",
+      "volume_5m": "$40,253"
+    },
+    "audit": {
+      "contract": "0x39dBED3a...3C4571"
+    },
+    "price_at_alert": "$0.771100",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_213659_ZCAT_dac5",
+    "timestamp": "2026-09-06T21:36:59.637015",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "ZCAT",
+    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+    "chain": "solana",
+    "score": 100,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Seguridad: Freeze Revocado / Anti-Honeypot (+10pts)",
+      "Seguridad: Mint Revocado (+5pts)",
+      "Distribucion saludable: Top 10 posee 15.59% (+5pts)",
+      "Liquidez protegida: 83.0% LP bloqueada (+5pts)",
+      "Twitter buzz: 10 tweets recientes (+30pts)",
+      "Market Cap fuerte: $128,176,174 (+15pts)",
+      "Liquidez alta: $1,892,660 (+15pts)",
+      "Volumen 5m alto: $48,272 (+10pts)",
+      "CONVERGENCIA FULL: 4 senales simultaneas (+15pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$128,176,174",
+      "liquidity": "$1,892,660",
+      "volume_5m": "$48,272"
+    },
+    "audit": {
+      "contract": "HcRLc9...DeJR",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "15.59% (Saludable)",
+      "risk": "BAJO RIESGO / BUENO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "BAJO RIESGO / BUENO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 15.59,
+        "insiders_count": 0,
+        "lp_locked_pct": 83.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+      }
+    },
+    "price_at_alert": "$0.128100",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_213922_5TU1D6_dddf",
+    "timestamp": "2026-09-06T21:39:22.423669",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "5TU1D6",
+    "mint": "5Tu1d6KwWpz6dUyT8hghKxxBRAtfhCUBDoef86TCpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "5Tu1d6...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "97.18% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "5Tu1d6KwWpz6dUyT8hghKxxBRAtfhCUBDoef86TCpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 97.18,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/5Tu1d6KwWpz6dUyT8hghKxxBRAtfhCUBDoef86TCpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214107_FUD2TM_05be",
+    "timestamp": "2026-09-06T21:41:07.982362",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FUD2TM",
+    "mint": "FUd2tM5oNny7xZpSM8Eg2fnHUg2G8s1jyW8tkC14pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "FUd2tM...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "92.6% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "FUd2tM5oNny7xZpSM8Eg2fnHUg2G8s1jyW8tkC14pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 92.6,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/FUd2tM5oNny7xZpSM8Eg2fnHUg2G8s1jyW8tkC14pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214230_FFSKF4_f6be",
+    "timestamp": "2026-09-06T21:42:30.117503",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FFSKF4",
+    "mint": "FFSkf41WMhbzqnWcjV1tNhiR4ouBytxJRnifFw7ppump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "FFSkf4...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "97.72% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "FFSkf41WMhbzqnWcjV1tNhiR4ouBytxJRnifFw7ppump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 97.72,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/FFSkf41WMhbzqnWcjV1tNhiR4ouBytxJRnifFw7ppump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_214233_PONS_cd33",
+    "timestamp": "2026-09-06T21:42:33.615492",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "PONS",
+    "mint": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+    "chain": "robinhood",
+    "score": 80,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener"
+    ],
+    "signals": [
+      "Twitter buzz: 14 tweets recientes (+30pts)",
+      "Market Cap fuerte: $539,213,534 (+15pts)",
+      "Liquidez alta: $7,692,396 (+15pts)",
+      "Volumen 5m alto: $14,267 (+10pts)",
+      "CONVERGENCIA TRIPLE: 3 senales simultaneas (+10pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$539,213,534",
+      "liquidity": "$7,692,396",
+      "volume_5m": "$14,267"
+    },
+    "audit": {
+      "contract": "0x39dBED3a...3C4571"
+    },
+    "price_at_alert": "$0.768300",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_214244_ZCAT_9fb6",
+    "timestamp": "2026-09-06T21:42:44.863179",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "ZCAT",
+    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+    "chain": "solana",
+    "score": 100,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Seguridad: Freeze Revocado / Anti-Honeypot (+10pts)",
+      "Seguridad: Mint Revocado (+5pts)",
+      "Distribucion saludable: Top 10 posee 15.59% (+5pts)",
+      "Liquidez protegida: 84.0% LP bloqueada (+5pts)",
+      "Twitter buzz: 10 tweets recientes (+30pts)",
+      "Market Cap fuerte: $128,032,747 (+15pts)",
+      "Liquidez alta: $1,934,271 (+15pts)",
+      "Volumen 5m alto: $23,717 (+10pts)",
+      "CONVERGENCIA FULL: 4 senales simultaneas (+15pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$128,032,747",
+      "liquidity": "$1,934,271",
+      "volume_5m": "$23,717"
+    },
+    "audit": {
+      "contract": "HcRLc9...DeJR",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "15.59% (Saludable)",
+      "risk": "BAJO RIESGO / BUENO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "BAJO RIESGO / BUENO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 15.59,
+        "insiders_count": 0,
+        "lp_locked_pct": 84.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+      }
+    },
+    "price_at_alert": "$0.128000",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214409_5RLX2V_0cc5",
+    "timestamp": "2026-09-06T21:44:09.355271",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "5RLX2V",
+    "mint": "5rLX2VsNAb52VxKmriQiuk8vihvWon5HtgVE8CwLt53F",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "5rLX2V...t53F",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.63% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "5rLX2VsNAb52VxKmriQiuk8vihvWon5HtgVE8CwLt53F",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.63,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/5rLX2VsNAb52VxKmriQiuk8vihvWon5HtgVE8CwLt53F"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214508_J5PHMS_c533",
+    "timestamp": "2026-09-06T21:45:08.542350",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "J5PHMS",
+    "mint": "J5PhMSoB1jannxZx7NqYWn6fdhEJhyGWbMBUsGT61qJH",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "J5PhMS...1qJH",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "J5PhMSoB1jannxZx7NqYWn6fdhEJhyGWbMBUsGT61qJH",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/J5PhMSoB1jannxZx7NqYWn6fdhEJhyGWbMBUsGT61qJH"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214608_GMYFUH_094a",
+    "timestamp": "2026-09-06T21:46:08.541750",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "GMYFUH",
+    "mint": "GMYfUhxEi2vdFRk6kguFs3dJKFpmaACozDn9LfpTiTcM",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "GMYfUh...iTcM",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "97.68% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GMYfUhxEi2vdFRk6kguFs3dJKFpmaACozDn9LfpTiTcM",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 97.68,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GMYfUhxEi2vdFRk6kguFs3dJKFpmaACozDn9LfpTiTcM"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214648_2TMJ8C_836d",
+    "timestamp": "2026-09-06T21:46:48.755544",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "2TMJ8C",
+    "mint": "2tMJ8CkzuTGTkWvtq9Kp7b5Bf4JWuxCQgsqUyTZDpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "2tMJ8C...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 2001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "2tMJ8CkzuTGTkWvtq9Kp7b5Bf4JWuxCQgsqUyTZDpump",
+        "safe": false,
+        "score": 2001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/2tMJ8CkzuTGTkWvtq9Kp7b5Bf4JWuxCQgsqUyTZDpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214650_CEJEDU_ec26",
+    "timestamp": "2026-09-06T21:46:50.433680",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "CEJEDU",
+    "mint": "CeJeDuM5ynDHaMVcGa3euKwrdVuPtzXsF19HjZ6Spump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "CeJeDu...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "CeJeDuM5ynDHaMVcGa3euKwrdVuPtzXsF19HjZ6Spump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/CeJeDuM5ynDHaMVcGa3euKwrdVuPtzXsF19HjZ6Spump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214713_GTQMZ7_12e8",
+    "timestamp": "2026-09-06T21:47:13.734970",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "GTQMZ7",
+    "mint": "GTqMz7eMSmiWpNU7coyLiDj5X6MhWW1HvtH1P4uMpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "GTqMz7...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "80.37% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GTqMz7eMSmiWpNU7coyLiDj5X6MhWW1HvtH1P4uMpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 80.37,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GTqMz7eMSmiWpNU7coyLiDj5X6MhWW1HvtH1P4uMpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214911_9THR9W_6e81",
+    "timestamp": "2026-09-06T21:49:11.573318",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "9THR9W",
+    "mint": "9thr9wSyXVgRVCMmGvuMbuHBMCa3CKQ8cPhu6iPNseJg",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "9thr9w...seJg",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "9thr9wSyXVgRVCMmGvuMbuHBMCa3CKQ8cPhu6iPNseJg",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/9thr9wSyXVgRVCMmGvuMbuHBMCa3CKQ8cPhu6iPNseJg"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214932_H9AUIE_7087",
+    "timestamp": "2026-09-06T21:49:32.448804",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "H9AUIE",
+    "mint": "H9aUiEoaB6BQ8jMiKNczNUx5gxsxTasNqcDba1gQ34e7",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "H9aUiE...34e7",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "69.06% (Concentrado)",
+      "risk": "RIESGO MODERADO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "H9aUiEoaB6BQ8jMiKNczNUx5gxsxTasNqcDba1gQ34e7",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "RIESGO MODERADO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 69.06,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/H9aUiEoaB6BQ8jMiKNczNUx5gxsxTasNqcDba1gQ34e7"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_214953_HGCLVA_f215",
+    "timestamp": "2026-09-06T21:49:53.852442",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "HGCLVA",
+    "mint": "HGcLVa1xNgp7DPXTvyKHNKN4r4RVAoCHfFyZdXRSh1SG",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "HGcLVa...h1SG",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HGcLVa1xNgp7DPXTvyKHNKN4r4RVAoCHfFyZdXRSh1SG",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HGcLVa1xNgp7DPXTvyKHNKN4r4RVAoCHfFyZdXRSh1SG"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_215055_44RWBU_b991",
+    "timestamp": "2026-09-06T21:50:55.733494",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "44RWBU",
+    "mint": "44RWBuv92X9sLn5gaJ7dkytphTcbHmMtAU4V8ry4pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "44RWBu...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "44RWBuv92X9sLn5gaJ7dkytphTcbHmMtAU4V8ry4pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/44RWBuv92X9sLn5gaJ7dkytphTcbHmMtAU4V8ry4pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_215310_5XP9ZE_8489",
+    "timestamp": "2026-09-06T21:53:10.542118",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "5XP9ZE",
+    "mint": "5xp9ZEyW2fKw55jRJe1u9rRWPCm3M3YH83QxiTFdpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "5xp9ZE...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.24% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 2001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "5xp9ZEyW2fKw55jRJe1u9rRWPCm3M3YH83QxiTFdpump",
+        "safe": false,
+        "score": 2001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.24,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/5xp9ZEyW2fKw55jRJe1u9rRWPCm3M3YH83QxiTFdpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_215447_GPJRXA_74af",
+    "timestamp": "2026-09-06T21:54:47.716153",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "GPJRXA",
+    "mint": "GpJrXa5A3jB4M8N3MFPYHACQxk84JDDbxTHMyCbUpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "GpJrXa...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.38% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GpJrXa5A3jB4M8N3MFPYHACQxk84JDDbxTHMyCbUpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.38,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GpJrXa5A3jB4M8N3MFPYHACQxk84JDDbxTHMyCbUpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_215607_6A5YCS_0c1a",
+    "timestamp": "2026-09-06T21:56:07.746032",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6A5YCS",
+    "mint": "6A5YcsBnYqVcFbeR4p2tVGTe7aUNvz3VNfwAZKXZgxZ8",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6A5Ycs...gxZ8",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "102.78% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6A5YcsBnYqVcFbeR4p2tVGTe7aUNvz3VNfwAZKXZgxZ8",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 102.78,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6A5YcsBnYqVcFbeR4p2tVGTe7aUNvz3VNfwAZKXZgxZ8"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220131_F8DY7A_053a",
+    "timestamp": "2026-09-06T22:01:31.970679",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "F8DY7A",
+    "mint": "F8dy7ahBYc7BvVK686YugPgUP1XCFS7vMGi6Z25xpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "F8dy7a...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "92.98% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "F8dy7ahBYc7BvVK686YugPgUP1XCFS7vMGi6Z25xpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 92.98,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/F8dy7ahBYc7BvVK686YugPgUP1XCFS7vMGi6Z25xpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220215_AZXPS2_482a",
+    "timestamp": "2026-09-06T22:02:15.869903",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "AZXPS2",
+    "mint": "AZxPS2rutFZeVFgdgbyiPeyMTqsv5MoZsEJ2pyq6CJ68",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "AZxPS2...CJ68",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "102.14% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "AZxPS2rutFZeVFgdgbyiPeyMTqsv5MoZsEJ2pyq6CJ68",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 102.14,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/AZxPS2rutFZeVFgdgbyiPeyMTqsv5MoZsEJ2pyq6CJ68"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220316_6LOCP3_5d5d",
+    "timestamp": "2026-09-06T22:03:16.689567",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6LOCP3",
+    "mint": "6LoCP3wK81DKWkiUJ34TTBKYsv3dthSXkFQGGi75pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6LoCP3...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 122001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6LoCP3wK81DKWkiUJ34TTBKYsv3dthSXkFQGGi75pump",
+        "safe": false,
+        "score": 122001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6LoCP3wK81DKWkiUJ34TTBKYsv3dthSXkFQGGi75pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220416_A7MZQX_1a78",
+    "timestamp": "2026-09-06T22:04:16.239810",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "A7MZQX",
+    "mint": "A7mzqxsKka5nsxJMwXaZiQH8vzDQf8UuLF3T3Ck3pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "A7mzqx...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "A7mzqxsKka5nsxJMwXaZiQH8vzDQf8UuLF3T3Ck3pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/A7mzqxsKka5nsxJMwXaZiQH8vzDQf8UuLF3T3Ck3pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220435_7CMCON_1d6e",
+    "timestamp": "2026-09-06T22:04:35.850759",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "7CMCON",
+    "mint": "7cmcon1uS3Whmf6JKVNiMg6khH7U8Bq51QQB2yBS8yyi",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "7cmcon...8yyi",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "92.53% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "7cmcon1uS3Whmf6JKVNiMg6khH7U8Bq51QQB2yBS8yyi",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 92.53,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/7cmcon1uS3Whmf6JKVNiMg6khH7U8Bq51QQB2yBS8yyi"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220615_8Q6CN2_4267",
+    "timestamp": "2026-09-06T22:06:15.213528",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "8Q6CN2",
+    "mint": "8Q6CN2X1KZ53DN8SCc9hE3hdZRnUE5utWaB1eLXBHuF7",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "8Q6CN2...HuF7",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "8Q6CN2X1KZ53DN8SCc9hE3hdZRnUE5utWaB1eLXBHuF7",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/8Q6CN2X1KZ53DN8SCc9hE3hdZRnUE5utWaB1eLXBHuF7"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220632_FUMR4C_c191",
+    "timestamp": "2026-09-06T22:06:32.893509",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FUMR4C",
+    "mint": "FumR4CZTwPJ1pv5C9krjVMf9LAEYbWwKhAg9q9QEpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "FumR4C...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.99% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "FumR4CZTwPJ1pv5C9krjVMf9LAEYbWwKhAg9q9QEpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.99,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/FumR4CZTwPJ1pv5C9krjVMf9LAEYbWwKhAg9q9QEpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220653_2XV2Y8_12b8",
+    "timestamp": "2026-09-06T22:06:53.639586",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "2XV2Y8",
+    "mint": "2Xv2Y8HtWiJezb3RPdQWHvA5auQogJU9va4FgpjUD79A",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "2Xv2Y8...D79A",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "98.61% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "2Xv2Y8HtWiJezb3RPdQWHvA5auQogJU9va4FgpjUD79A",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 98.61,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/2Xv2Y8HtWiJezb3RPdQWHvA5auQogJU9va4FgpjUD79A"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220714_HQP4VQ_02f5",
+    "timestamp": "2026-09-06T22:07:14.491512",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "HQP4VQ",
+    "mint": "HqP4vQsweyU5PzkcaiJc7sbd2HysgiSuF6PZk6vgpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "HqP4vQ...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HqP4vQsweyU5PzkcaiJc7sbd2HysgiSuF6PZk6vgpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HqP4vQsweyU5PzkcaiJc7sbd2HysgiSuF6PZk6vgpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220740_31USMF_9e32",
+    "timestamp": "2026-09-06T22:07:40.168739",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "31USMF",
+    "mint": "31usmfYffj7cktFiHnJuB46ZirqiyNviyp84EwHJ7dh1",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "31usmf...7dh1",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "31usmfYffj7cktFiHnJuB46ZirqiyNviyp84EwHJ7dh1",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/31usmfYffj7cktFiHnJuB46ZirqiyNviyp84EwHJ7dh1"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220758_GZBQZL_f4ab",
+    "timestamp": "2026-09-06T22:07:58.887581",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "GZBQZL",
+    "mint": "GZBqzLiKGox4LWzYRtEEBkz1Z9n9iafdAXcaekYxQRLU",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "GZBqzL...QRLU",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "96.38% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GZBqzLiKGox4LWzYRtEEBkz1Z9n9iafdAXcaekYxQRLU",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 96.38,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GZBqzLiKGox4LWzYRtEEBkz1Z9n9iafdAXcaekYxQRLU"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220838_74AR7X_895d",
+    "timestamp": "2026-09-06T22:08:38.519023",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "74AR7X",
+    "mint": "74AR7Xga6tdce5cLSs3ViKuDd5qVmmpeacJGcvCcpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "74AR7X...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "74AR7Xga6tdce5cLSs3ViKuDd5qVmmpeacJGcvCcpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/74AR7Xga6tdce5cLSs3ViKuDd5qVmmpeacJGcvCcpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220920_PUMPBOAR_70b3",
+    "timestamp": "2026-09-06T22:09:20.259197",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "PUMPBOARD",
+    "mint": "GWn6fDbJn9fyCfoiD5LkYYgpUJC2MKRmarRkgkuBpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$3,997",
+      "volume_5m": "$2,817",
+      "price": "$0.000003997"
+    },
+    "audit": {
+      "contract": "GWn6fD...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 120001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GWn6fDbJn9fyCfoiD5LkYYgpUJC2MKRmarRkgkuBpump",
+        "safe": false,
+        "score": 120001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GWn6fDbJn9fyCfoiD5LkYYgpUJC2MKRmarRkgkuBpump"
+      }
+    },
+    "price_at_alert": "0.000003997",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220937_8WXQWF_4e4c",
+    "timestamp": "2026-09-06T22:09:37.897614",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "8WXQWF",
+    "mint": "8wxQWFLo4dZ16iEmbqoxcrsAVzP7TX4ZxqUs6WTP6pJB",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "8wxQWF...6pJB",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "84.23% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "8wxQWFLo4dZ16iEmbqoxcrsAVzP7TX4ZxqUs6WTP6pJB",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 84.23,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/8wxQWFLo4dZ16iEmbqoxcrsAVzP7TX4ZxqUs6WTP6pJB"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_220959_ADFPQU_4ad2",
+    "timestamp": "2026-09-06T22:09:59.583600",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "ADFPQU",
+    "mint": "ADFPQucJowBFtET4RAoqq8fHD5FXcdPyyv7fiP26pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "ADFPQu...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.81% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "ADFPQucJowBFtET4RAoqq8fHD5FXcdPyyv7fiP26pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.81,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/ADFPQucJowBFtET4RAoqq8fHD5FXcdPyyv7fiP26pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221100_OS2DGJ_fde0",
+    "timestamp": "2026-09-06T22:11:00.423418",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "OS2DGJ",
+    "mint": "os2DGjUqYu3MuLdcTget9mUdPgNtjuvNLhQqWaYnML9",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "os2DGj...nML9",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "69.83% (Concentrado)",
+      "risk": "RIESGO MODERADO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "os2DGjUqYu3MuLdcTget9mUdPgNtjuvNLhQqWaYnML9",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "RIESGO MODERADO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 69.83,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/os2DGjUqYu3MuLdcTget9mUdPgNtjuvNLhQqWaYnML9"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221201_2EXVIJ_d85e",
+    "timestamp": "2026-09-06T22:12:01.257562",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "2EXVIJ",
+    "mint": "2eXVijHkUPtPcdX2AwWgn2CqVXZsFRdUGCV6MP7Fpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "2eXVij...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.95% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "2eXVijHkUPtPcdX2AwWgn2CqVXZsFRdUGCV6MP7Fpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.95,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/2eXVijHkUPtPcdX2AwWgn2CqVXZsFRdUGCV6MP7Fpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221241_FY4ZYV_2b36",
+    "timestamp": "2026-09-06T22:12:41.223395",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FY4ZYV",
+    "mint": "FY4ZYVstDp7T1VV8gUJBd1h8aFnZCDE6kLWL12vgpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "FY4ZYV...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "85.63% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "FY4ZYVstDp7T1VV8gUJBd1h8aFnZCDE6kLWL12vgpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 85.63,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/FY4ZYVstDp7T1VV8gUJBd1h8aFnZCDE6kLWL12vgpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221438_BNPAP8_3c13",
+    "timestamp": "2026-09-06T22:14:38.070383",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "BNPAP8",
+    "mint": "BnPAp851E3A57o5xZHFj7PbaCvMbJLdcyTzRXtZGAp2v",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "BnPAp8...Ap2v",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "BnPAp851E3A57o5xZHFj7PbaCvMbJLdcyTzRXtZGAp2v",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/BnPAp851E3A57o5xZHFj7PbaCvMbJLdcyTzRXtZGAp2v"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221539_9Q3GYF_3dc5",
+    "timestamp": "2026-09-06T22:15:39.315789",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "9Q3GYF",
+    "mint": "9Q3gyfWpC6mx3zUvoTZyiNJM7A3i7XcGLN3TupMjpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "9Q3gyf...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "71.73% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 2001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "9Q3gyfWpC6mx3zUvoTZyiNJM7A3i7XcGLN3TupMjpump",
+        "safe": false,
+        "score": 2001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 71.73,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/9Q3gyfWpC6mx3zUvoTZyiNJM7A3i7XcGLN3TupMjpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221634_BXZVV3_f54b",
+    "timestamp": "2026-09-06T22:16:34.981360",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "BXZVV3",
+    "mint": "BxZVV3HGiFMPDxKAVtj6ovaF6ajXBKN2bpoZTgBNLt1m",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "BxZVV3...Lt1m",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "90.99% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "BxZVV3HGiFMPDxKAVtj6ovaF6ajXBKN2bpoZTgBNLt1m",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 90.99,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/BxZVV3HGiFMPDxKAVtj6ovaF6ajXBKN2bpoZTgBNLt1m"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221734_62CDWN_128e",
+    "timestamp": "2026-09-06T22:17:34.614797",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "62CDWN",
+    "mint": "62CDwnXbHrJbrqqmBtVekmnLiUSd9HVorwDhMa3spump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "62CDwn...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "80.69% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "62CDwnXbHrJbrqqmBtVekmnLiUSd9HVorwDhMa3spump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 80.69,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/62CDwnXbHrJbrqqmBtVekmnLiUSd9HVorwDhMa3spump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221805_BXXDG8_b8b4",
+    "timestamp": "2026-09-06T22:18:05.921649",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "BXXDG8",
+    "mint": "BXXdg8xn6wGzvq1P7Gsn8vR6JWFoXynYKGbRzu6Qyfw5",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "BXXdg8...yfw5",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "85.16% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "BXXdg8xn6wGzvq1P7Gsn8vR6JWFoXynYKGbRzu6Qyfw5",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 85.16,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/BXXdg8xn6wGzvq1P7Gsn8vR6JWFoXynYKGbRzu6Qyfw5"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_221953_6XQXFT_b202",
+    "timestamp": "2026-09-06T22:19:53.063497",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6XQXFT",
+    "mint": "6xQXFT9b6iqwdojrdzX8wF92CRJZvVnTBc63PDZXvubL",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6xQXFT...vubL",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6xQXFT9b6iqwdojrdzX8wF92CRJZvVnTBc63PDZXvubL",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6xQXFT9b6iqwdojrdzX8wF92CRJZvVnTBc63PDZXvubL"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222016_6HKUNX_6986",
+    "timestamp": "2026-09-06T22:20:16.624232",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6HKUNX",
+    "mint": "6HKunxN7PLkHuycNgKYcSgFekcXSktaXsCPNRfyV2nEG",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6HKunx...2nEG",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.86% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6HKunxN7PLkHuycNgKYcSgFekcXSktaXsCPNRfyV2nEG",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.86,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6HKunxN7PLkHuycNgKYcSgFekcXSktaXsCPNRfyV2nEG"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222020_8O9OMY_85ac",
+    "timestamp": "2026-09-06T22:20:20.053202",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "8O9OMY",
+    "mint": "8o9oMY8hHv97QRhvc6APectAFVAMmFAyGNeay8QL91Gb",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "8o9oMY...91Gb",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.7% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "8o9oMY8hHv97QRhvc6APectAFVAMmFAyGNeay8QL91Gb",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.7,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/8o9oMY8hHv97QRhvc6APectAFVAMmFAyGNeay8QL91Gb"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222135_9B8SZX_c1ed",
+    "timestamp": "2026-09-06T22:21:35.953629",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "9B8SZX",
+    "mint": "9B8sZxG9hCwt1bsog5inSZtxmoKvA8uLiNVPRCV2pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "9B8sZx...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.93% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "9B8sZxG9hCwt1bsog5inSZtxmoKvA8uLiNVPRCV2pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.93,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/9B8sZxG9hCwt1bsog5inSZtxmoKvA8uLiNVPRCV2pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222221_C4BWXW_cbb3",
+    "timestamp": "2026-09-06T22:22:21.945396",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "C4BWXW",
+    "mint": "C4BWXWratnu33o5gmDvF4RC3U8VA5xmqX86q4egTrize",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "C4BWXW...rize",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "83.61% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 2001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "C4BWXWratnu33o5gmDvF4RC3U8VA5xmqX86q4egTrize",
+        "safe": false,
+        "score": 2001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 83.61,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/C4BWXWratnu33o5gmDvF4RC3U8VA5xmqX86q4egTrize"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222304_6QUSG2_2f7e",
+    "timestamp": "2026-09-06T22:23:04.956124",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6QUSG2",
+    "mint": "6Qusg2bc7ZAHjd2FnjQ951Bcs5KF5t611vxXhWTxpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6Qusg2...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "82.85% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6Qusg2bc7ZAHjd2FnjQ951Bcs5KF5t611vxXhWTxpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 82.85,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6Qusg2bc7ZAHjd2FnjQ951Bcs5KF5t611vxXhWTxpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222412_BJDW2H_62ba",
+    "timestamp": "2026-09-06T22:24:12.891759",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "BJDW2H",
+    "mint": "BjDW2h21zEMueJQrKfiVbvbtvEx71ecsE4pvQaFRpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "BjDW2h...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "93.69% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "BjDW2h21zEMueJQrKfiVbvbtvEx71ecsE4pvQaFRpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 93.69,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/BjDW2h21zEMueJQrKfiVbvbtvEx71ecsE4pvQaFRpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222444_3EKWE7_20fe",
+    "timestamp": "2026-09-06T22:24:44.404888",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "3EKWE7",
+    "mint": "3EkWe7bM4dtez5p9zwqWuzT7cL2wCt8ZiX7uktG9pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "3EkWe7...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "3EkWe7bM4dtez5p9zwqWuzT7cL2wCt8ZiX7uktG9pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/3EkWe7bM4dtez5p9zwqWuzT7cL2wCt8ZiX7uktG9pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222611_25NMSY_4c6a",
+    "timestamp": "2026-09-06T22:26:11.668020",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "25NMSY",
+    "mint": "25nMSy1Ciq1WXwu1NUYzrvGE6KiznU6NgrMVxht9pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "25nMSy...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "94.32% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "25nMSy1Ciq1WXwu1NUYzrvGE6KiznU6NgrMVxht9pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 94.32,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/25nMSy1Ciq1WXwu1NUYzrvGE6KiznU6NgrMVxht9pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222735_7QL5TC_82d4",
+    "timestamp": "2026-09-06T22:27:35.281984",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "7QL5TC",
+    "mint": "7qL5TC9qLw6g4v6sjKDWn7yDmavQ5E5JaYtgWeH7pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "7qL5TC...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "55.61% (Concentrado)",
+      "risk": "RIESGO MODERADO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "7qL5TC9qLw6g4v6sjKDWn7yDmavQ5E5JaYtgWeH7pump",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "RIESGO MODERADO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 55.61,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/7qL5TC9qLw6g4v6sjKDWn7yDmavQ5E5JaYtgWeH7pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222737_67KMZB_5923",
+    "timestamp": "2026-09-06T22:27:37.193082",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "67KMZB",
+    "mint": "67kMZb5rD5tmD3T9N3ZcsxZfQUz59grc2dhq8bibpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "67kMZb...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "67kMZb5rD5tmD3T9N3ZcsxZfQUz59grc2dhq8bibpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/67kMZb5rD5tmD3T9N3ZcsxZfQUz59grc2dhq8bibpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222818_52YCS2_fae2",
+    "timestamp": "2026-09-06T22:28:18.029431",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "52YCS2",
+    "mint": "52YCS2jdMB498CGwfAmRpnd44ueCPgTBrgqPN3Ywpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "52YCS2...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "52YCS2jdMB498CGwfAmRpnd44ueCPgTBrgqPN3Ywpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/52YCS2jdMB498CGwfAmRpnd44ueCPgTBrgqPN3Ywpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222839_BFWE1Y_c4f3",
+    "timestamp": "2026-09-06T22:28:39.726771",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "BFWE1Y",
+    "mint": "BfWe1yyGMfL5KBmE8uz2TDMcRE7zzNrNns7bm97spump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "BfWe1y...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "BfWe1yyGMfL5KBmE8uz2TDMcRE7zzNrNns7bm97spump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/BfWe1yyGMfL5KBmE8uz2TDMcRE7zzNrNns7bm97spump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222901_6O6DYB_85d6",
+    "timestamp": "2026-09-06T22:29:01.507972",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6O6DYB",
+    "mint": "6o6dybm6STPdWk6om3E2cd2DWemJ7BdDT6afkaM3xoT4",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6o6dyb...xoT4",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6o6dybm6STPdWk6om3E2cd2DWemJ7BdDT6afkaM3xoT4",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6o6dybm6STPdWk6om3E2cd2DWemJ7BdDT6afkaM3xoT4"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_222905_FEMA9D_8e9e",
+    "timestamp": "2026-09-06T22:29:05.248468",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FEMA9D",
+    "mint": "Fema9Dkc4uMcf84PsBGjFUzsBTku4voFu6iUYUmJkWpm",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "Fema9D...kWpm",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "Fema9Dkc4uMcf84PsBGjFUzsBTku4voFu6iUYUmJkWpm",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/Fema9Dkc4uMcf84PsBGjFUzsBTku4voFu6iUYUmJkWpm"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_223022_HQCNV3_951d",
+    "timestamp": "2026-09-06T22:30:22.446109",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "HQCNV3",
+    "mint": "HqCNv3eN1vK4vBVvaBMZscUfUPxchyeteWYYHwcSTgFY",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "HqCNv3...TgFY",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.94% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HqCNv3eN1vK4vBVvaBMZscUfUPxchyeteWYYHwcSTgFY",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.94,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HqCNv3eN1vK4vBVvaBMZscUfUPxchyeteWYYHwcSTgFY"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_223845_E1XA1P_ee6e",
+    "timestamp": "2026-09-06T22:38:45.056189",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "E1XA1P",
+    "mint": "E1xa1PwJRwVRLzoLBRY6nCTHKRTxv4m6M4KSNDotpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "E1xa1P...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 120001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "E1xa1PwJRwVRLzoLBRY6nCTHKRTxv4m6M4KSNDotpump",
+        "safe": false,
+        "score": 120001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/E1xa1PwJRwVRLzoLBRY6nCTHKRTxv4m6M4KSNDotpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_223907_A7QAFM_5cef",
+    "timestamp": "2026-09-06T22:39:07.672120",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "A7QAFM",
+    "mint": "A7qafMeQFfR963Zqhxci7M9rDcHhtmToPBPFRG17Kh2x",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "A7qafM...Kh2x",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "97.51% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "A7qafMeQFfR963Zqhxci7M9rDcHhtmToPBPFRG17Kh2x",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 97.51,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/A7qafMeQFfR963Zqhxci7M9rDcHhtmToPBPFRG17Kh2x"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_223910_ZCAT_ed50",
+    "timestamp": "2026-09-06T22:39:10.577764",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "ZCAT",
+    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+    "chain": "solana",
+    "score": 100,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Seguridad: Freeze Revocado / Anti-Honeypot (+10pts)",
+      "Seguridad: Mint Revocado (+5pts)",
+      "Distribucion saludable: Top 10 posee 15.59% (+5pts)",
+      "Liquidez protegida: 83.0% LP bloqueada (+5pts)",
+      "Twitter buzz: 10 tweets recientes (+30pts)",
+      "Market Cap fuerte: $126,310,097 (+15pts)",
+      "Liquidez alta: $1,893,766 (+15pts)",
+      "Volumen 5m alto: $74,688 (+10pts)",
+      "CONVERGENCIA FULL: 4 senales simultaneas (+15pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$126,310,097",
+      "liquidity": "$1,893,766",
+      "volume_5m": "$74,688"
+    },
+    "audit": {
+      "contract": "HcRLc9...DeJR",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "15.59% (Saludable)",
+      "risk": "BAJO RIESGO / BUENO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "BAJO RIESGO / BUENO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 15.59,
+        "insiders_count": 0,
+        "lp_locked_pct": 83.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+      }
+    },
+    "price_at_alert": "$0.126300",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_223928_GEKGKU_94b3",
+    "timestamp": "2026-09-06T22:39:28.231423",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "GEKGKU",
+    "mint": "GeKGkuj4fmRT6q5NJMTbYiJmdPTTBv6iAHoSM9K5pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "GeKGku...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 67201)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GeKGkuj4fmRT6q5NJMTbYiJmdPTTBv6iAHoSM9K5pump",
+        "safe": false,
+        "score": 67201,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GeKGkuj4fmRT6q5NJMTbYiJmdPTTBv6iAHoSM9K5pump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_223931_HUIQK5_6646",
+    "timestamp": "2026-09-06T22:39:31.780264",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "HUIQK5",
+    "mint": "HUiqK5X8oC8jrCvJekay4rswdkbBER1YhbpzrUYVVZU7",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "HUiqK5...VZU7",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "97.95% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HUiqK5X8oC8jrCvJekay4rswdkbBER1YhbpzrUYVVZU7",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 97.95,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HUiqK5X8oC8jrCvJekay4rswdkbBER1YhbpzrUYVVZU7"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_223949_9YUZFT_5dc6",
+    "timestamp": "2026-09-06T22:39:49.520391",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "9YUZFT",
+    "mint": "9yuzfTYEHXBmjYmepcw1bJDLqXAwtyx5KvWZiugnJFhb",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "9yuzfT...JFhb",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "90.57% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "9yuzfTYEHXBmjYmepcw1bJDLqXAwtyx5KvWZiugnJFhb",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 90.57,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/9yuzfTYEHXBmjYmepcw1bJDLqXAwtyx5KvWZiugnJFhb"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224108_CYFIKZ_34cd",
+    "timestamp": "2026-09-06T22:41:08.256742",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "CYFIKZ",
+    "mint": "CyfikZJh2MiA11fL44XBvpQyk9y8KNf92LqhyzASy3v5",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "CyfikZ...y3v5",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "91.56% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "CyfikZJh2MiA11fL44XBvpQyk9y8KNf92LqhyzASy3v5",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 91.56,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/CyfikZJh2MiA11fL44XBvpQyk9y8KNf92LqhyzASy3v5"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224129_8OUJWY_e8a7",
+    "timestamp": "2026-09-06T22:41:29.849041",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "8OUJWY",
+    "mint": "8oUjWYRUoZxa2oXa3EzCSALqvp7Q8uST4nosgEWspump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cupseyy"
+    ],
+    "traders_involved": [
+      "@Cupseyy"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "8oUjWY...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "99.98% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "8oUjWYRUoZxa2oXa3EzCSALqvp7Q8uST4nosgEWspump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 99.98,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/8oUjWYRUoZxa2oXa3EzCSALqvp7Q8uST4nosgEWspump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224153_KITTY_0c84",
+    "timestamp": "2026-09-06T22:41:53.714946",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "KITTY",
+    "mint": "C4BWXWratnu33o5gmDvF4RC3U8VA5xmqX86q4egTrize",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade BUY en Pump.fun",
+      "0.025 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$22,773",
+      "volume_5m": "$17,996",
+      "price": "$0.00002277"
+    },
+    "audit": {
+      "contract": "C4BWXW...rize",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "53.23% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 2001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "C4BWXWratnu33o5gmDvF4RC3U8VA5xmqX86q4egTrize",
+        "safe": false,
+        "score": 2001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 53.23,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/C4BWXWratnu33o5gmDvF4RC3U8VA5xmqX86q4egTrize"
+      }
+    },
+    "price_at_alert": "0.00002277",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224406_6W1Q9G_c6c5",
+    "timestamp": "2026-09-06T22:44:06.007086",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "6W1Q9G",
+    "mint": "6W1Q9gkTxNhHDNNtyuEqApsJ1DgTG1vNYacHwBcGpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "6W1Q9g...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.03% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "6W1Q9gkTxNhHDNNtyuEqApsJ1DgTG1vNYacHwBcGpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.03,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/6W1Q9gkTxNhHDNNtyuEqApsJ1DgTG1vNYacHwBcGpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_224454_ZCAT_4892",
+    "timestamp": "2026-09-06T22:44:54.917842",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "ZCAT",
+    "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+    "chain": "solana",
+    "score": 100,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Seguridad: Freeze Revocado / Anti-Honeypot (+10pts)",
+      "Seguridad: Mint Revocado (+5pts)",
+      "Distribucion saludable: Top 10 posee 15.59% (+5pts)",
+      "Liquidez protegida: 83.0% LP bloqueada (+5pts)",
+      "Twitter buzz: 11 tweets recientes (+30pts)",
+      "Market Cap fuerte: $121,337,346 (+15pts)",
+      "Liquidez alta: $1,863,229 (+15pts)",
+      "Volumen 5m alto: $32,538 (+10pts)",
+      "CONVERGENCIA FULL: 4 senales simultaneas (+15pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$121,337,346",
+      "liquidity": "$1,863,229",
+      "volume_5m": "$32,538"
+    },
+    "audit": {
+      "contract": "HcRLc9...DeJR",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "15.59% (Saludable)",
+      "risk": "BAJO RIESGO / BUENO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR",
+        "safe": true,
+        "score": 1,
+        "risk_rating": "BAJO RIESGO / BUENO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 15.59,
+        "insiders_count": 0,
+        "lp_locked_pct": 83.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+      }
+    },
+    "price_at_alert": "$0.121300",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224644_A552QV_fa4e",
+    "timestamp": "2026-09-06T22:46:44.296115",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "A552QV",
+    "mint": "A552qV4QfvD3QkvdXhtK2BzypKi37JVNA22nBfcnpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "A552qV...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "96.21% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 9201)",
+      "raw_audit": {
+        "success": true,
+        "mint": "A552qV4QfvD3QkvdXhtK2BzypKi37JVNA22nBfcnpump",
+        "safe": false,
+        "score": 9201,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 96.21,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens",
+          "Copycat token"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/A552qV4QfvD3QkvdXhtK2BzypKi37JVNA22nBfcnpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224749_39ZY16_49eb",
+    "timestamp": "2026-09-06T22:47:49.301448",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "39ZY16",
+    "mint": "39ZY16vJpV2tRMBote9UqcysiBGLLZ1H1Wi2yRpUpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "39ZY16...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "39ZY16vJpV2tRMBote9UqcysiBGLLZ1H1Wi2yRpUpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/39ZY16vJpV2tRMBote9UqcysiBGLLZ1H1Wi2yRpUpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224809_C1M9CR_8d93",
+    "timestamp": "2026-09-06T22:48:09.931984",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "C1M9CR",
+    "mint": "C1m9Crw923eRJjcfMPjeTikijG7ZF5bWeDyk23tTfs7",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "C1m9Cr...Tfs7",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "C1m9Crw923eRJjcfMPjeTikijG7ZF5bWeDyk23tTfs7",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/C1m9Crw923eRJjcfMPjeTikijG7ZF5bWeDyk23tTfs7"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_224837_67PVCF_54f1",
+    "timestamp": "2026-09-06T22:48:37.862037",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "67PVCF",
+    "mint": "67pvCFsEiRUV7RWti1SvGSSA63axU8vwq6uNbhANpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "67pvCF...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 117601)",
+      "raw_audit": {
+        "success": true,
+        "mint": "67pvCFsEiRUV7RWti1SvGSSA63axU8vwq6uNbhANpump",
+        "safe": false,
+        "score": 117601,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/67pvCFsEiRUV7RWti1SvGSSA63axU8vwq6uNbhANpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_225009_PONS_8abd",
+    "timestamp": "2026-09-06T22:50:09.417781",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "PONS",
+    "mint": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+    "chain": "robinhood",
+    "score": 80,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener"
+    ],
+    "signals": [
+      "Twitter buzz: 11 tweets recientes (+30pts)",
+      "Market Cap fuerte: $524,388,535 (+15pts)",
+      "Liquidez alta: $7,614,518 (+15pts)",
+      "Volumen 5m alto: $18,477 (+10pts)",
+      "CONVERGENCIA TRIPLE: 3 senales simultaneas (+10pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$524,388,535",
+      "liquidity": "$7,614,518",
+      "volume_5m": "$18,477"
+    },
+    "audit": {
+      "contract": "0x39dBED3a...3C4571"
+    },
+    "price_at_alert": "$0.747300",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225120_CDQWHK_a58b",
+    "timestamp": "2026-09-06T22:51:20.481064",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "CDQWHK",
+    "mint": "CdqwhKC3yVgzvK8bu5F1xkNJ4Ai6D7k5hyZYa2Tjpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "CdqwhK...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "CdqwhKC3yVgzvK8bu5F1xkNJ4Ai6D7k5hyZYa2Tjpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/CdqwhKC3yVgzvK8bu5F1xkNJ4Ai6D7k5hyZYa2Tjpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225228_CG5O6V_8507",
+    "timestamp": "2026-09-06T22:52:28.459527",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "CG5O6V",
+    "mint": "Cg5o6VBf9PF7MURm2a7whP9LxmhWwMh5GjXdrGyKpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "Cg5o6V...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "Cg5o6VBf9PF7MURm2a7whP9LxmhWwMh5GjXdrGyKpump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/Cg5o6VBf9PF7MURm2a7whP9LxmhWwMh5GjXdrGyKpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225318_GXAR5X_ab80",
+    "timestamp": "2026-09-06T22:53:18.468984",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "GXAR5X",
+    "mint": "GXar5xFbPxu3pqJ8BNpw2jjva5W3eTb2kyDND5Wipump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "GXar5x...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 120001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "GXar5xFbPxu3pqJ8BNpw2jjva5W3eTb2kyDND5Wipump",
+        "safe": false,
+        "score": 120001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/GXar5xFbPxu3pqJ8BNpw2jjva5W3eTb2kyDND5Wipump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225400_PURRPS_dd84",
+    "timestamp": "2026-09-06T22:54:00.074229",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "PURRPS",
+    "mint": "2cnqm44cWoTU3JkNioxqghDBjLE2oXbjyCP2Nmi3pump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$4,409",
+      "volume_5m": "$3,189",
+      "price": "$0.000004408"
+    },
+    "audit": {
+      "contract": "2cnqm4...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "97.81% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "2cnqm44cWoTU3JkNioxqghDBjLE2oXbjyCP2Nmi3pump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 97.81,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/2cnqm44cWoTU3JkNioxqghDBjLE2oXbjyCP2Nmi3pump"
+      }
+    },
+    "price_at_alert": "0.000004408",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225417_NVIDOGE_f777",
+    "timestamp": "2026-09-06T22:54:17.536663",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "NVIDOGE",
+    "mint": "75aEY5y8oyx1rePdXWBEhmGqTFgofyeFeoMjuxmfLRpM",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {
+      "market_cap": "$3,986",
+      "volume_5m": "$4,293",
+      "price": "$0.000003986"
+    },
+    "audit": {
+      "contract": "75aEY5...LRpM",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "75aEY5y8oyx1rePdXWBEhmGqTFgofyeFeoMjuxmfLRpM",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/75aEY5y8oyx1rePdXWBEhmGqTFgofyeFeoMjuxmfLRpM"
+      }
+    },
+    "price_at_alert": "0.000003986",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225517_FW1MQH_bc99",
+    "timestamp": "2026-09-06T22:55:17.285152",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "FW1MQH",
+    "mint": "Fw1MQhY4bjeMpehiateuuDjMv2H4ETTRGcX1gVdhpump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "Fw1MQh...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "94.58% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 120001)",
+      "raw_audit": {
+        "success": true,
+        "mint": "Fw1MQhY4bjeMpehiateuuDjMv2H4ETTRGcX1gVdhpump",
+        "safe": false,
+        "score": 120001,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 94.58,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [
+          "Creator history of rugged tokens"
+        ],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/Fw1MQhY4bjeMpehiateuuDjMv2H4ETTRGcX1gVdhpump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "con_20260906_225530_PONS_651e",
+    "timestamp": "2026-09-06T22:55:30.394306",
+    "date": "2026-09-06",
+    "signal_type": "convergence",
+    "type": "convergence",
+    "token": "PONS",
+    "mint": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+    "chain": "robinhood",
+    "score": 75,
+    "layers": [
+      "X",
+      "FOMO",
+      "DexScreener"
+    ],
+    "signals": [
+      "Twitter buzz: 12 tweets recientes (+30pts)",
+      "Market Cap fuerte: $524,550,343 (+15pts)",
+      "Liquidez alta: $7,615,258 (+15pts)",
+      "Volumen 5m activo: $3,130 (+5pts)",
+      "CONVERGENCIA TRIPLE: 3 senales simultaneas (+10pts)"
+    ],
+    "traders_involved": [],
+    "metrics_at_alert": {
+      "market_cap": "$524,550,343",
+      "liquidity": "$7,615,258",
+      "volume_5m": "$3,130"
+    },
+    "audit": {
+      "contract": "0x39dBED3a...3C4571"
+    },
+    "price_at_alert": "$0.747600",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225619_7QHDWB_f3fa",
+    "timestamp": "2026-09-06T22:56:19.029616",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "7QHDWB",
+    "mint": "7QhDwBaE8Ths39iLW328TABDwkP5gLnm5WZgxUMAm1Dk",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @notdecu"
+    ],
+    "traders_involved": [
+      "@notdecu"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "7QhDwB...m1Dk",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "82.65% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "7QhDwBaE8Ths39iLW328TABDwkP5gLnm5WZgxUMAm1Dk",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 82.65,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/7QhDwBaE8Ths39iLW328TABDwkP5gLnm5WZgxUMAm1Dk"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  },
+  {
+    "id": "cop_20260906_225636_E2WO86_ffd5",
+    "timestamp": "2026-09-06T22:56:36.563599",
+    "date": "2026-09-06",
+    "signal_type": "copytrade",
+    "type": "copytrade",
+    "token": "E2WO86",
+    "mint": "E2Wo86eHUkMXoHFX474zJw8XGmyZTRPPy4Q1Wewupump",
+    "chain": "solana",
+    "score": 70,
+    "layers": [
+      "Pump.fun",
+      "DexScreener",
+      "Seguridad"
+    ],
+    "signals": [
+      "Copytrade SWAP en Pump.fun",
+      "0.000 SOL por @Cented7"
+    ],
+    "traders_involved": [
+      "@Cented7"
+    ],
+    "metrics_at_alert": {},
+    "audit": {
+      "contract": "E2Wo86...pump",
+      "honeypot": "PASADO (Freeze Revocado)",
+      "authorities": "MINT REVOCADO",
+      "top_10": "100.0% (Concentrado)",
+      "risk": "ALTO RIESGO (Score: 1)",
+      "raw_audit": {
+        "success": true,
+        "mint": "E2Wo86eHUkMXoHFX474zJw8XGmyZTRPPy4Q1Wewupump",
+        "safe": false,
+        "score": 1,
+        "risk_rating": "ALTO RIESGO",
+        "mint_authority": "REVOCADO",
+        "freeze_authority": "REVOCADO (Sin Honeypot)",
+        "top10_supply_pct": 100.0,
+        "insiders_count": 0,
+        "lp_locked_pct": 100.0,
+        "rugged": false,
+        "risks": [],
+        "rugcheck_url": "https://rugcheck.xyz/tokens/E2Wo86eHUkMXoHFX474zJw8XGmyZTRPPy4Q1Wewupump"
+      }
+    },
+    "price_at_alert": "",
+    "price_24h_later": null,
+    "pnl_pct": null,
+    "outcome": null,
+    "feedback": null,
+    "feedback_timestamp": null,
+    "notes": "",
+    "auto_evaluated": false
+  }
+]

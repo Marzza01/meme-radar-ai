@@ -1,0 +1,45 @@
+{
+    "watchlist": [
+        {
+            "symbol": "PONS",
+            "search_terms": ["$PONS", "PONS token", "PONS coin"],
+            "chain": "robinhood",
+            "enabled": true
+        },
+        {
+            "symbol": "ZCAT",
+            "search_terms": ["$ZCAT", "ZCAT token"],
+            "chain": "solana",
+            "enabled": true
+        }
+    ],
+    "discovery": {
+        "enabled": true,
+        "interval_cycles": 3,
+        "send_telegram_alerts": true,
+        "active_traders": [
+            "theunipcs",
+            "AvgJoesCrypto",
+            "Cented7",
+            "Cupseyy"
+        ]
+    },
+    "thresholds": {
+        "alert_score_min": 50,
+        "min_liquidity_usd": 50000,
+        "min_market_cap_usd": 100000,
+        "min_tweets_for_buzz": 3,
+        "high_volume_multiplier": 2.0
+    },
+    "scan_interval_seconds": 300,
+    "max_alerts_per_token_per_hour": 2,
+    "telegram_bot": {
+        "enabled": true,
+        "comment": "Bot interactivo de Telegram — comandos /scan /add /smartmoney /tokens /wallets /status /help"
+    },
+    "wallet_tracker": {
+        "enabled": true,
+        "interval_seconds": 15,
+        "comment": "Copytrade Tracker — monitorea wallets de Cupseyy, Cented7, 0xdetweiler, notdecu en Solana"
+    }
+}

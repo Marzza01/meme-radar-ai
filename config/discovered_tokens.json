@@ -1,0 +1,56 @@
+{
+    "BONK": {
+        "first_seen": "2026-09-06T19:26:33.902578",
+        "traders": [
+            "@theunipcs"
+        ],
+        "mention_count": 3,
+        "market_cap": "$215,318,198",
+        "liquidity": "$4,557,847"
+    },
+    "WIF": {
+        "first_seen": "2026-09-06T19:26:34.835258",
+        "traders": [
+            "@theunipcs"
+        ],
+        "mention_count": 1,
+        "market_cap": "$232,022,273",
+        "liquidity": "$116,011,137"
+    },
+    "FARTCOIN": {
+        "first_seen": "2026-09-06T19:26:35.459922",
+        "traders": [
+            "@theunipcs"
+        ],
+        "mention_count": 1,
+        "market_cap": "$2,340,455,073",
+        "liquidity": "$2,339,284,849"
+    },
+    "PNUT": {
+        "first_seen": "2026-09-06T19:26:36.043664",
+        "traders": [
+            "@theunipcs"
+        ],
+        "mention_count": 1,
+        "market_cap": "$357,294,455",
+        "liquidity": "$356,288,081"
+    },
+    "POPCAT": {
+        "first_seen": "2026-09-06T19:26:36.723991",
+        "traders": [
+            "@theunipcs"
+        ],
+        "mention_count": 1,
+        "market_cap": "$51,415,706",
+        "liquidity": "$3,804,947"
+    },
+    "MARSCOIN": {
+        "first_seen": "2026-09-06T19:26:37.344266",
+        "traders": [
+            "@theunipcs"
+        ],
+        "mention_count": 1,
+        "market_cap": "$170,708,747",
+        "liquidity": "$170,541,715"
+    }
+}

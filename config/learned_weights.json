@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-09-06T20:28:31.380494",
+  "version": "2.2",
+  "trader_weights": {
+    "theunipcs": 25,
+    "DumbCrayonEater": 22,
+    "Salem1299534": 18,
+    "Cented7": 10,
+    "Cupseyy": 22,
+    "notdecu": 22,
+    "0xdetweiler": 20,
+    "orangie": 18,
+    "MacnBTC": 18,
+    "nyhrox": 16
+  },
+  "layer_weights": {
+    "X": 32,
+    "FOMO": 30,
+    "Pump.fun": 20,
+    "DexScreener": 12,
+    "Seguridad": 10
+  },
+  "threshold_score": 65,
+  "signal_multipliers": {
+    "convergence": 1.5,
+    "discovery": 1.0,
+    "copytrade": 0.8
+  },
+  "history": [
+    {
+      "timestamp": "2026-09-06T20:28:31.380494",
+      "date": "2026-09-06",
+      "adjustments": [
+        "Capa 'X' peso: 30 → 32 (+2 por 100.0% acierto en 7d)",
+        "Capa 'DexScreener' peso: 10 → 12 (+2 por 75.0% acierto en 7d)",
+        "Trader @Cupseyy peso: 20 → 22 (+2 por 100.0% precisión)",
+        "Trader @notdecu peso: 20 → 22 (+2 por 100.0% precisión)"
+      ]
+    }
+  ]
+}

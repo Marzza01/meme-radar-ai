@@ -1,0 +1,258 @@
+{
+    "description": "Smart money traders — FOMO + Pump.fun / Solana. Handles limpios y verificados.",
+    "last_updated": "2026-09-06",
+    "priority_handles": [
+        "theunipcs",
+        "DumbCrayonEater",
+        "AvgJoesCrypto",
+        "Salem1299534",
+        "brrrgrrrz",
+        "orangie",
+        "Cented7",
+        "Cupseyy",
+        "notdecu",
+        "nyhrox",
+        "Natan_benish",
+        "frogmanhaha",
+        "0xdetweiler",
+        "MacnBTC"
+    ],
+    "traders": {
+        "tier_s": {
+            "label": "FOMO Tier 1 (Elite)",
+            "score_weight": 25,
+            "members": [
+                {
+                    "handle": "theunipcs",
+                    "alias": "Unipcs / Bonk Guy",
+                    "platform": "fomo",
+                    "pnl": ">$10-15M",
+                    "priority": true,
+                    "notes": "Top 1 all-time FOMO. High-conviction + heavy size. El mas seguido y copiado.",
+                    "style": "high-conviction",
+                    "key_plays": ["$PONS", "$MARSCOIN", "$DELTA"]
+                },
+                {
+                    "handle": "DumbCrayonEater",
+                    "alias": "DumbCrayonEater",
+                    "platform": "fomo",
+                    "pnl": "~$8.8M",
+                    "priority": true,
+                    "notes": "Posicion dominante en $AI (~380x). Holding prolongado y size grande.",
+                    "style": "diamond-hands",
+                    "key_plays": ["$AI"]
+                },
+                {
+                    "handle": "AvgJoesCrypto",
+                    "alias": "AJC",
+                    "platform": "fomo",
+                    "pnl": ">$2M",
+                    "priority": true,
+                    "notes": "Posiciones fuertes en $PONS y narrativas hot. Investigador tipo Blockworks.",
+                    "style": "research-driven",
+                    "key_plays": ["$PONS"]
+                },
+                {
+                    "handle": "Salem1299534",
+                    "alias": "Salem",
+                    "platform": "fomo",
+                    "pnl": ">$5M",
+                    "priority": true,
+                    "notes": "Millones en PnL. Gran exposicion a $AI.",
+                    "style": "market-maker",
+                    "key_plays": ["$AI"]
+                },
+                {
+                    "handle": "brrrgrrrz",
+                    "alias": "Burgz",
+                    "platform": "fomo",
+                    "pnl": ">$4M",
+                    "priority": true,
+                    "notes": "Alto volumen + PnL multimillonario.",
+                    "style": "high-volume",
+                    "key_plays": []
+                },
+                {
+                    "handle": "Natan_benish",
+                    "alias": "Nate",
+                    "platform": "fomo",
+                    "priority": true,
+                    "notes": "Cofundador LONG. PnL fuerte.",
+                    "style": "insider-flow"
+                },
+                {
+                    "handle": "change",
+                    "alias": "change",
+                    "platform": "fomo",
+                    "priority": false,
+                    "notes": "Estilo rotacional en hot narratives + PVP.",
+                    "style": "narrative-rotator"
+                },
+                {
+                    "handle": "frogmanhaha",
+                    "alias": "Frogman",
+                    "platform": "fomo",
+                    "priority": true,
+                    "notes": "PnL alto y consistente.",
+                    "style": "trend-follower"
+                },
+                {
+                    "handle": "ether_monk",
+                    "alias": "Ethermonk",
+                    "platform": "fomo",
+                    "priority": false,
+                    "notes": "PnL solido.",
+                    "style": "swing-trader"
+                },
+                {
+                    "handle": "notanicecat69",
+                    "alias": "Wood",
+                    "platform": "fomo",
+                    "priority": false,
+                    "notes": "Top FOMO trader.",
+                    "style": "pvp-sniper"
+                },
+                {
+                    "handle": "frankdegods",
+                    "alias": "Frank deGods",
+                    "platform": "fomo",
+                    "priority": false,
+                    "notes": "Alto volumen + presencia constante y seguimiento masivo.",
+                    "style": "influential-whale"
+                }
+            ]
+        },
+        "tier_a": {
+            "label": "Solana / Smart Money + Pump.fun (Tier 2)",
+            "score_weight": 18,
+            "members": [
+                {
+                    "handle": "orangie",
+                    "alias": "Orangie",
+                    "platform": "solana",
+                    "priority": true,
+                    "notes": "Smart money Solana de alto impacto, calls tempranas.",
+                    "style": "momentum-sniper"
+                },
+                {
+                    "handle": "Cented7",
+                    "alias": "Cented",
+                    "platform": "pumpfun",
+                    "priority": true,
+                    "wallets": ["CyaE1VxvBrahnPWkqm5VsdCvyS2QmNht2UFrKJHga54o"],
+                    "notes": "Cuenta principal. Consistente en leaderboards Solana 30d. Win rate ~60%+.",
+                    "style": "consistent-grinder"
+                },
+                {
+                    "handle": "Cupseyy",
+                    "alias": "Cupsey",
+                    "platform": "pumpfun",
+                    "priority": true,
+                    "wallets": ["suqh5sHtr8HyJ7q8scBimULPkPpA557prMG47xCHQfK"],
+                    "notes": "Cuenta principal. High-frequency + early entries. Muy rentable en Pump.fun.",
+                    "style": "early-sniper"
+                },
+                {
+                    "handle": "0xdetweiler",
+                    "alias": "Theo",
+                    "platform": "pumpfun",
+                    "priority": true,
+                    "wallets": ["Bi4rd5FH5bYEN8scZ7wevxNZyNmKHdaBcvewdPFxYdLt"],
+                    "notes": "Consistente top en Solana memecoin leaderboards.",
+                    "style": "leaderboard-top"
+                },
+                {
+                    "handle": "notdecu",
+                    "alias": "Decu",
+                    "platform": "pumpfun",
+                    "priority": true,
+                    "wallets": ["4vw54BmAogeRV3vPKWyFet5yf8DTLcREzdSzx4rw9Ud9"],
+                    "notes": "Cuenta verificada notdecu. Alto win rate y PnL recurrente.",
+                    "style": "high-winrate"
+                },
+                {
+                    "handle": "MacnBTC",
+                    "alias": "Mac",
+                    "platform": "solana",
+                    "priority": true,
+                    "notes": "Whale de alto impacto, acumulaciones y llamadas macro de memecoins.",
+                    "style": "whale-trend"
+                },
+                {
+                    "handle": "mellometrics",
+                    "alias": "Mello",
+                    "platform": "solana",
+                    "priority": false,
+                    "notes": "Analisis on-chain y metricas de flujo de dinero inteligente.",
+                    "style": "metrics-driven"
+                }
+            ]
+        },
+        "tier_b": {
+            "label": "Tier 3 / Otros Relevantes",
+            "score_weight": 10,
+            "members": [
+                {
+                    "handle": "nyhrox",
+                    "alias": "Nyhrox",
+                    "platform": "pumpfun",
+                    "priority": true,
+                    "notes": "Top 10-20 PnL 30d en Pump.fun. Estilo agresivo en early launches.",
+                    "style": "aggressive-early"
+                },
+                {
+                    "handle": "OnlyLJC",
+                    "alias": "OnlyLJC",
+                    "platform": "pumpfun",
+                    "priority": false,
+                    "notes": "Aparece en analisis de traders rentables."
+                },
+                {
+                    "handle": "Schoen_xyz",
+                    "alias": "Schoen",
+                    "platform": "pumpfun",
+                    "priority": false,
+                    "notes": "Estilo rapido."
+                },
+                {
+                    "handle": "slingoorio",
+                    "alias": "slingoorio",
+                    "platform": "pumpfun",
+                    "priority": false,
+                    "notes": "Holds mas largos. Muy rentable."
+                },
+                {
+                    "handle": "daumenxyz",
+                    "alias": "daumen",
+                    "platform": "pumpfun",
+                    "priority": false,
+                    "notes": "Flips muy rapidos."
+                },
+                {
+                    "handle": "PoorGoat_",
+                    "alias": "PoorGoat",
+                    "platform": "fomo",
+                    "priority": false
+                },
+                {
+                    "handle": "theveeman",
+                    "alias": "Veeman",
+                    "platform": "fomo",
+                    "priority": false
+                },
+                {
+                    "handle": "Aurelius0121",
+                    "alias": "Aurelius",
+                    "platform": "fomo",
+                    "priority": false
+                },
+                {
+                    "handle": "Quanterty",
+                    "alias": "Quanterty",
+                    "platform": "fomo",
+                    "priority": false
+                }
+            ]
+        }
+    }
+}

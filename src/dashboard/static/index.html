@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Radar AI — Institutional Trading Terminal</title>
+  <meta name="description" content="Terminal institucional de monitoreo en tiempo real para Solana memecoins con detección de convergencia multiseñal, copytrade y aprendizaje autónomo.">
+  <link rel="stylesheet" href="/static/dashboard.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300F5A0' stroke-width='2'><circle cx='12' cy='12' r='10'/><path d='m4.93 4.93 4.24 4.24'/><path d='m14.83 9.17 4.24-4.24'/><path d='m14.83 14.83 4.24 4.24'/><path d='m9.17 14.83-4.24 4.24'/><circle cx='12' cy='12' r='4'/></svg>">
+</head>
+<body>
+
+<!-- ====================================================================
+     OFFLINE SPLASH — Se muestra cuando el servidor no esta respondiendo
+     ==================================================================== -->
+<div id="offline-overlay" style="
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #080c14;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+">
+  <div style="text-align: center; max-width: 480px; padding: 32px;">
+
+    <!-- Radar animation -->
+    <div style="position: relative; width: 96px; height: 96px; margin: 0 auto 32px;">
+      <svg viewBox="0 0 96 96" style="width: 96px; height: 96px; opacity: 0.25;">
+        <circle cx="48" cy="48" r="44" fill="none" stroke="#00F5A0" stroke-width="1"/>
+        <circle cx="48" cy="48" r="30" fill="none" stroke="#00F5A0" stroke-width="1"/>
+        <circle cx="48" cy="48" r="16" fill="none" stroke="#00F5A0" stroke-width="1"/>
+        <line x1="48" y1="4" x2="48" y2="92" stroke="#00F5A0" stroke-width="0.5" opacity="0.4"/>
+        <line x1="4" y1="48" x2="92" y2="48" stroke="#00F5A0" stroke-width="0.5" opacity="0.4"/>
+      </svg>
+      <svg id="offline-radar-sweep" viewBox="0 0 96 96" style="
+        width: 96px; height: 96px;
+        position: absolute; top: 0; left: 0;
+        animation: radarSpin 2.5s linear infinite;
+      ">
+        <defs>
+          <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#00F5A0" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#00F5A0" stop-opacity="0.6"/>
+          </linearGradient>
+        </defs>
+        <path d="M48 48 L48 6 A42 42 0 0 1 88 48 Z" fill="url(#sweepGrad)"/>
+      </svg>
+    </div>
+
+    <h2 style="font-size: 20px; font-weight: 700; color: #f0f4ff; margin: 0 0 8px; letter-spacing: -0.3px;">
+      Servidor Offline
+    </h2>
+    <p style="font-size: 13px; color: #8892aa; margin: 0 0 28px; line-height: 1.6;">
+      El servidor del dashboard no está corriendo.<br>
+      Usa <code style="background: rgba(0,245,160,0.1); color: #00F5A0; padding: 2px 6px; border-radius: 4px; font-size: 12px;">ABRIR_DASHBOARD.bat</code> para encenderlo automáticamente,<br>
+      o ejecuta <code style="background: rgba(0,245,160,0.1); color: #00F5A0; padding: 2px 6px; border-radius: 4px; font-size: 12px;">ENCENDER_RADAR.bat</code> primero.
+    </p>
+
+    <div style="display: flex; align-items: center; gap: 12px; justify-content: center;">
+      <button id="offline-retry-btn" onclick="manualRetry()" style="
+        background: rgba(0,245,160,0.12);
+        border: 1px solid rgba(0,245,160,0.35);
+        color: #00F5A0;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px 22px;
+        border-radius: 8px;
+        cursor: pointer;
+        letter-spacing: 0.3px;
+        transition: background 0.2s;
+      " onmouseover="this.style.background='rgba(0,245,160,0.22)'" onmouseout="this.style.background='rgba(0,245,160,0.12)'">
+        Reintentar Conexión
+      </button>
+      <span id="offline-countdown" style="font-size: 12px; color: #8892aa; font-family: 'Courier New', monospace;">auto en 5s</span>
+    </div>
+
+    <p style="font-size: 11px; color: #4a5568; margin: 24px 0 0;">MEME RADAR AI v2.2 &mdash; http://localhost:3000</p>
+  </div>
+</div>
+
+<style>
+  @keyframes radarSpin {
+    from { transform: rotate(0deg); transform-origin: 48px 48px; }
+    to   { transform: rotate(360deg); transform-origin: 48px 48px; }
+  }
+</style>
+
+<div class="app-container">
+  
+  <!-- ========================================================================
+       SIDEBAR NAVIGATION (STAKENT STYLE)
+       ======================================================================== -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="m4.93 4.93 4.24 4.24"/>
+          <path d="m14.83 9.17 4.24-4.24"/>
+          <path d="m14.83 14.83 4.24 4.24"/>
+          <path d="m9.17 14.83-4.24 4.24"/>
+          <circle cx="12" cy="12" r="4"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <h1>MEME RADAR AI</h1>
+        <span>Terminal v2.2</span>
+      </div>
+    </div>
+
+    <!-- Navigation Items -->
+    <nav class="sidebar-nav">
+      <a class="nav-item active" id="nav-alerts" onclick="switchView('alerts')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>
+        </svg>
+        <span>Radar Feed</span>
+      </a>
+
+      <a class="nav-item" id="nav-tokens" onclick="switchView('tokens')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="12" cy="12" r="8"/>
+          <line x1="12" y1="2" x2="12" y2="4"/>
+          <line x1="12" y1="20" x2="12" y2="22"/>
+          <line x1="20" y1="12" x2="22" y2="12"/>
+          <line x1="2" y1="12" x2="4" y2="12"/>
+        </svg>
+        <span>Descubrimientos</span>
+      </a>
+
+      <a class="nav-item" id="nav-copytrade" onclick="switchView('copytrade')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect width="20" height="14" x="2" y="5" rx="2"/>
+          <line x1="2" y1="10" x2="22" y2="10"/>
+        </svg>
+        <span>Copytrade Wallets</span>
+      </a>
+
+      <a class="nav-item" id="nav-layers" onclick="switchView('layers')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+          <polyline points="2 17 12 22 22 17"/>
+          <polyline points="2 12 12 17 22 12"/>
+        </svg>
+        <span>5 Capas & IA</span>
+      </a>
+    </nav>
+
+    <!-- System Threads Status Monitor -->
+    <div class="sidebar-threads">
+      <div class="threads-title">
+        <span>Estado de Hilos</span>
+        <span class="pulse-dot"></span>
+      </div>
+      <div class="thread-row">
+        <div class="thread-name">
+          <span class="pulse-dot"></span>
+          <span>Motor Radar</span>
+        </div>
+        <span class="thread-tag" id="thread-radar-tag">300s</span>
+      </div>
+      <div class="thread-row">
+        <div class="thread-name">
+          <span class="pulse-dot"></span>
+          <span>Bot Telegram</span>
+        </div>
+        <span class="thread-tag" id="thread-bot-tag">Activo</span>
+      </div>
+      <div class="thread-row">
+        <div class="thread-name">
+          <span class="pulse-dot"></span>
+          <span>Wallet Tracker</span>
+        </div>
+        <span class="thread-tag" id="thread-tracker-tag">15s</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       MAIN WRAPPER & TOPBAR
+       ======================================================================== -->
+  <div class="main-wrapper">
+    
+    <!-- Top Navbar -->
+    <header class="topbar">
+      <div class="search-container">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="verify-input" placeholder="Verificar ticker ($BONK) o contrato CA...">
+        <span class="search-shortcut">Enter</span>
+      </div>
+
+      <div class="topbar-actions">
+        <div class="pill-chip chip-status-live" id="ws-indicator">
+          <span class="pulse-dot"></span>
+          <span id="ws-label">Live Stream</span>
+        </div>
+
+        <div class="pill-chip">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="12" cy="12" r="6"/>
+            <circle cx="12" cy="12" r="2"/>
+          </svg>
+          <span id="threshold-display">Umbral: 65/100</span>
+        </div>
+
+        <button class="action-btn-icon active" id="audio-toggle-btn" title="Activar/Silenciar chimes de alerta" onclick="toggleAudio()">
+          <svg id="audio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Dashboard Content Area -->
+    <main class="dashboard-content">
+
+      <!-- ====================================================================
+           KPI METRIC CARDS ROW
+           ==================================================================== -->
+      <section class="kpi-grid">
+        <!-- KPI 1 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Precisión Acumulada</span>
+            <div class="kpi-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-accuracy">--%</div>
+          <div class="kpi-footer">
+            <span class="trend-badge trend-positive" id="kpi-tp-fp-badge">0 TP / 0 FP</span>
+            <span class="trend-subtext">Últimos 7 días</span>
+          </div>
+        </div>
+
+        <!-- KPI 2 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Alertas Detectadas Hoy</span>
+            <div class="kpi-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-total-today">0</div>
+          <div class="kpi-footer">
+            <span class="trend-badge trend-neutral" id="kpi-pending-badge">0 pendientes</span>
+            <span class="trend-subtext">Seguimiento 24h</span>
+          </div>
+        </div>
+
+        <!-- KPI 3 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">Smart Money Élite</span>
+            <div class="kpi-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+          </div>
+          <div class="kpi-value">14</div>
+          <div class="kpi-footer">
+            <span class="trend-badge trend-positive">100% On-chain</span>
+            <span class="trend-subtext">Traders prioritarios</span>
+          </div>
+        </div>
+
+        <!-- KPI 4 -->
+        <div class="kpi-card">
+          <div class="kpi-header">
+            <span class="kpi-title">PnL Promedio (24h)</span>
+            <div class="kpi-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <line x1="12" y1="1" x2="12" y2="23"/>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-pnl-avg">+0.0%</div>
+          <div class="kpi-footer">
+            <span class="trend-badge trend-positive" id="kpi-pnl-max">Máx: +0.0%</span>
+            <span class="trend-subtext">DexScreener API</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           TRADING WORKSPACE: ALERTS FEED + ANALYTICS PANEL
+           ==================================================================== -->
+      <div class="workspace-grid">
+        
+        <!-- Left: Live Alerts Feed -->
+        <section class="section-panel" id="feed-panel">
+          <div class="panel-header">
+            <div class="panel-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>
+              </svg>
+              <span>Feed de Alertas en Tiempo Real</span>
+            </div>
+            
+            <div class="filter-tabs">
+              <button class="tab-btn active" onclick="filterAlerts('all', this)">Todos</button>
+              <button class="tab-btn" onclick="filterAlerts('convergence', this)">Convergencia</button>
+              <button class="tab-btn" onclick="filterAlerts('discovery', this)">Discovery</button>
+              <button class="tab-btn" onclick="filterAlerts('copytrade', this)">Copytrade</button>
+            </div>
+          </div>
+
+          <!-- Dynamic Alerts Stream -->
+          <div class="alerts-list" id="alerts-container">
+            <div style="text-align: center; padding: 48px; color: var(--text-muted); font-size: 13px;">
+              Cargando historial de alertas de la bitácora...
+            </div>
+          </div>
+        </section>
+
+        <!-- Right: Intelligence & Copytrade Activity -->
+        <div class="right-column">
+          
+          <!-- 5 Layers Weight Distribution -->
+          <div class="section-panel">
+            <div class="panel-header" style="margin-bottom: 14px; padding-bottom: 10px;">
+              <div class="panel-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                  <polyline points="2 17 12 22 22 17"/>
+                  <polyline points="2 12 12 17 22 12"/>
+                </svg>
+                <span>Ponderación de 5 Capas</span>
+              </div>
+              <span style="font-size: 11px; font-family: var(--font-mono); color: var(--text-muted);">Learned</span>
+            </div>
+
+            <div class="layer-progress-stack" id="layers-stack-container">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- Trader Accuracy Leaderboard -->
+          <div class="section-panel">
+            <div class="panel-header" style="margin-bottom: 14px; padding-bottom: 10px;">
+              <div class="panel-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>
+                  <path d="M4 22h16"/>
+                  <path d="M10 14.66V17c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-2.34"/>
+                  <path d="M14 14.66V17c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-2.34"/>
+                  <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>
+                </svg>
+                <span>Ranking de Traders</span>
+              </div>
+              <span style="font-size: 11px; font-family: var(--font-mono); color: var(--mint);">Win Rate</span>
+            </div>
+
+            <div class="trader-rank-list" id="traders-leaderboard">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- Live On-chain Copytrade Stream -->
+          <div class="section-panel">
+            <div class="panel-header" style="margin-bottom: 14px; padding-bottom: 10px;">
+              <div class="panel-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect width="20" height="14" x="2" y="5" rx="2"/>
+                  <line x1="2" y1="10" x2="22" y2="10"/>
+                </svg>
+                <span>Copytrade On-Chain</span>
+              </div>
+              <span style="font-size: 11px; font-family: var(--font-mono); color: var(--violet);">Solana RPC</span>
+            </div>
+
+            <div class="wallet-txs-feed" id="wallets-tx-container">
+              <!-- Dynamically rendered -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ====================================================================
+           DISCOVERED TOKENS DATA TABLE
+           ==================================================================== -->
+      <section class="table-panel">
+        <div class="panel-header">
+          <div class="panel-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="8"/>
+              <line x1="12" y1="2" x2="12" y2="4"/>
+              <line x1="12" y1="20" x2="12" y2="22"/>
+              <line x1="20" y1="12" x2="22" y2="12"/>
+              <line x1="2" y1="12" x2="4" y2="12"/>
+            </svg>
+            <span>Inteligencia de Tokens Descubiertos por Smart Money</span>
+          </div>
+          <span style="font-size: 11.5px; font-family: var(--font-mono); color: var(--text-muted);" id="tokens-count-label">0 tokens</span>
+        </div>
+
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th>Token</th>
+              <th>Llamado Por</th>
+              <th>Menciones</th>
+              <th>Market Cap</th>
+              <th>Liquidez</th>
+              <th>Volumen 5m</th>
+              <th>Primera Detección</th>
+              <th>Acción</th>
+            </tr>
+          </thead>
+          <tbody id="tokens-table-body">
+            <tr>
+              <td colspan="8" style="text-align: center; color: var(--text-muted); padding: 32px;">
+                Cargando base de datos de tokens descubiertos...
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    </main>
+  </div>
+
+</div>
+
+<!-- Modal para Verificación / Radiografía Instantánea -->
+<div id="verify-modal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); z-index: 999; align-items: center; justify-content: center;">
+  <div style="background: var(--bg-card); border: 1px solid var(--border-card); border-radius: var(--radius-lg); width: 90%; max-width: 540px; padding: 26px; box-shadow: 0 10px 40px rgba(0,0,0,0.8); display: flex; flex-direction: column; gap: 16px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 14px;">
+      <h3 id="modal-title" style="font-family: var(--font-heading); font-size: 17px; font-weight: 700; color: var(--text-white);">Radiografía del Token</h3>
+      <button onclick="closeModal()" style="background: transparent; border: none; color: var(--text-muted); cursor: pointer; font-size: 18px; font-weight: 700;">×</button>
+    </div>
+    <div id="modal-content" style="font-size: 13px; color: var(--text-secondary); display: flex; flex-direction: column; gap: 12px;">
+      Consultando datos...
+    </div>
+  </div>
+</div>
+
+<script src="/static/dashboard.js"></script>
+
+<script>
+// ============================================================
+// OFFLINE DETECTION — Detecta si el servidor esta respondiendo
+// ============================================================
+(function() {
+  const overlay   = document.getElementById('offline-overlay');
+  const appCont   = document.querySelector('.app-container');
+  const countdown = document.getElementById('offline-countdown');
+  let countdownTimer = null;
+  let retryTimeout   = null;
+  let retryCount     = 0;
+
+  function showOffline() {
+    overlay.style.display = 'flex';
+    if (appCont) appCont.style.visibility = 'hidden';
+    startCountdown(5);
+  }
+
+  function showOnline() {
+    overlay.style.display = 'none';
+    if (appCont) appCont.style.visibility = 'visible';
+    if (countdownTimer) clearInterval(countdownTimer);
+    if (retryTimeout)   clearTimeout(retryTimeout);
+    retryCount = 0;
+  }
+
+  function startCountdown(secs) {
+    if (countdownTimer) clearInterval(countdownTimer);
+    if (retryTimeout)   clearTimeout(retryTimeout);
+    let remaining = secs;
+    countdown.textContent = `auto en ${remaining}s`;
+    countdownTimer = setInterval(() => {
+      remaining--;
+      countdown.textContent = remaining > 0 ? `auto en ${remaining}s` : 'reintentando...';
+      if (remaining <= 0) clearInterval(countdownTimer);
+    }, 1000);
+    retryTimeout = setTimeout(checkServer, secs * 1000);
+  }
+
+  async function checkServer() {
+    try {
+      const ctrl = new AbortController();
+      const tid  = setTimeout(() => ctrl.abort(), 3000);
+      const res  = await fetch('/api/status', { signal: ctrl.signal });
+      clearTimeout(tid);
+      if (res.ok) {
+        showOnline();
+        return;
+      }
+    } catch (e) { /* servidor no disponible */ }
+    retryCount++;
+    // Aumentar intervalo progresivamente: 5s, 8s, 12s, max 15s
+    const nextDelay = Math.min(5 + retryCount * 2, 15);
+    showOffline();
+    startCountdown(nextDelay);
+  }
+
+  window.manualRetry = function() {
+    if (countdownTimer) clearInterval(countdownTimer);
+    if (retryTimeout)   clearTimeout(retryTimeout);
+    countdown.textContent = 'conectando...';
+    setTimeout(checkServer, 300);
+  };
+
+  // Verificar al cargar la pagina
+  checkServer();
+})();
+</script>
+
+</body>
+</html>

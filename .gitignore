@@ -1,0 +1,35 @@
+# Secretos y Entornos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Sesiones de Navegador y Cookies
+.twitter-mcp/
+storage_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+env/
+venv/
+.venv/
+
+# Node / Cloudflare
+node_modules/
+dist/
+.wrangler/
+
+# Logs y Bases de datos locales
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
